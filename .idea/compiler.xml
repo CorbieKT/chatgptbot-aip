@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chatgptbot-api-application" />
         <module name="chatgptbot-api-infrastructure" />
         <module name="chatgptbot-api-interfaces" />
         <module name="chatgptbot-api-domain" />
+        <module name="chatgptbot-api-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chatgptbot-api" target="8" />
-      <module name="chatgptbot-api-application" target="8" />
-      <module name="chatgptbot-api-domain" target="8" />
-      <module name="chatgptbot-api-infrastructure" target="8" />
-      <module name="chatgptbot-api-interfaces" target="8" />
+      <module name="chatgptbot-api-application" target="1.8" />
+      <module name="chatgptbot-api-domain" target="1.8" />
+      <module name="chatgptbot-api-infrastructure" target="1.8" />
+      <module name="chatgptbot-api-interfaces" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
